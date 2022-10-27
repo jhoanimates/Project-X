@@ -1,0 +1,108 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  border: 1px white ;
+  height: 50px;
+
+}
+li{
+  padding-top: .9%;
+}
+
+#title{
+  margin: 0 32%;
+  padding-top: .9%;
+}
+img{
+  width: 100%;
+  position:absolute;
+  z-index:-1;
+}
+
+.collection{
+  padding: 10% 20% 30% 80%;
+  font-size: 40px;
+  color: white;
+}
+
+.collection button{
+  font-size: 35px;
+  width: 200px;
+  background-color: white
+}
+
+button.featured{
+  background-color: white;
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  margin-left: 42.5%;
+  font-size: 28px;
+}
+
+section.clothesimg ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 5% 20%;
+  list-style-type: none;
+}
+
+#span{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3%;
+  font-size: 25px;
+}
+
+footer{
+  background-color: gainsboro;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+footer #products h4, #explore h4, #touch h4{
+  border-bottom: 2px solid gray;
+}
+
+#products{
+  margin-left: 14%;
+}
+
+#touch{
+  margin-right: 14%;
+}
+
+
+footer nav ul li{
+  list-style-type: none;
+  padding: 0
+  
+}
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
