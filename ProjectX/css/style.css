@@ -21,17 +21,26 @@ header nav ul{
   left: 0;
   right: 0;
   border: 1px white ;
-  height: 50px;
+  height: 80px;
 
 }
 li{
-  padding-top: .9%;
+  padding-top: 1.5%;
+  font-size: 20px;
 }
 
 #title{
   margin: 0 32%;
-  padding-top: .9%;
+  padding-top: 0;
 }
+
+#img{
+  width: 5%;
+  padding-right: 1%;
+  padding-top: .13%;
+  
+}
+
 img{
   width: 100%;
   position:absolute;
