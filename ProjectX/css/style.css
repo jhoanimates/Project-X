@@ -2,6 +2,12 @@
 /* CSS
 /*******************************************/
 
+/* Default Font */
+* {
+    font-family: Montserrat,sans-serif;
+}
+
+
 /* Box Model Hack */
 *{
   box-sizing: border-box;
@@ -22,11 +28,12 @@ header nav ul{
   right: 0;
   border: 1px white ;
   height: 80px;
-
+  margin-top: 0;
 }
 li{
   padding-top: 1.5%;
-  font-size: 20px;
+  font-size: 16px;
+  font-weight: 400px;
 }
 
 #title{
@@ -109,7 +116,14 @@ footer nav ul li{
   
 }
 
+a {
+    text-decoration: none;
+}
 
+a:visited { text-decoration: none; color:black; }
+a:hover { text-decoration: none; color:black; }
+a:focus { text-decoration: none; color:black; }
+a:hover, a:active { text-decoration: none; color:black }
 
 
 /******************************************
