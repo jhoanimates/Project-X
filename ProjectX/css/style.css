@@ -26,25 +26,56 @@ header nav ul{
   top: 0;
   left: 0;
   right: 0;
-  border: 1px white ;
   height: 80px;
   margin-top: 0;
 }
-li{
+header nav ul li{
   padding-top: 1.5%;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400px;
+
+}
+
+header nav ul li:hover{
+  background-color: lightgray;
+  border-radius: 3px;
+}
+
+
+.sub-menu-1{
+  display:none
+}
+
+header nav ul li:hover .sub-menu-1{
+  display:block;
+  position:absolute;
+  background-color: white;
+}
+
+header nav ul li:hover .sub-menu-1 ul{
+  display:block;
+  margin-top: 4%;
+  background-color: white;
+  margin-left: 8.3%;
+  margin-right: 81%;
+  height: 200px;
+  text-align: center;
+  padding-left: 0;
+}
+
+header nav ul li:hover .sub-menu-1 ul li{
+  padding: 7% 0 5% 0;
 }
 
 #title{
-  margin: 0 32%;
+  margin: 0 25% 0 20%;
   padding-top: 0;
 }
 
 #img{
   width: 5%;
   padding-right: 1%;
-  padding-top: .13%;
+  padding-top: .15%;
   
 }
 
@@ -56,19 +87,19 @@ img{
 
 .collection{
   padding: 10% 20% 30% 80%;
-  font-size: 40px;
+  font-size: 45px;
   color: white;
 }
 
 .collection button{
-  font-size: 35px;
+  font-size: 30px;
   width: 200px;
   background-color: white;
 }
 
 button.featured{
   background-color: white;
-  margin-top: 3%;
+  margin-top: 7%;
   display: flex;
   justify-content: center;
   margin-left: 42.5%;
@@ -121,7 +152,10 @@ a {
 }
 
 a:visited { text-decoration: none; color:black; }
-a:hover { text-decoration: none; color:black; }
+a:hover {
+  text-decoration: none; 
+  color:black;
+}
 a:focus { text-decoration: none; color:black; }
 a:hover, a:active { text-decoration: none; color:black }
 
