@@ -74,14 +74,14 @@ header nav ul li:hover .sub-menu-1 ul li{
 }
 
 #title{
-  margin: 0 25% 0 20%;
-  padding-top: 0;
+  margin: 0 25% 0 18%;
+  padding-top: .25%;
 }
 
 #img{
-  width: 5%;
+  width: 4.2%;
   padding-right: 1%;
-  padding-top: .15%;
+  padding-top: .29%;
   
 }
 
@@ -108,7 +108,7 @@ button.featured{
   margin-top: 3%;
   display: flex;
   justify-content: center;
-  margin-left: 42.5%;
+  margin-left: 41.2%;
   font-size: 28px;
 }
 
