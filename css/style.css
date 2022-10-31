@@ -1,0 +1,60 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Default Font */
+* {
+    font-family: Montserrat,sans-serif;
+}
+
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+    background-color: white;
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.row {
+    margin: 0px 3px;
+}
+
+#mobile-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 5px;
+    margin: 0;
+    font-size: 13px;
+    text-align: center;
+}
+
+.mobile-nav-icon {
+    width: 25px;
+}
+
+.ganbaru-logo {
+    width: 50px;
+}
+
+
+
+@media screen and (min-width: 576px) {
+    body {
+      background-color: olive;
+    }
+}
