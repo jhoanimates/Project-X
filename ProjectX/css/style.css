@@ -82,7 +82,6 @@ header nav ul li:hover .sub-menu-1 ul li{
   width: 4.2%;
   padding-right: 1%;
   padding-top: .29%;
-  
 }
 
 img{
@@ -147,9 +146,9 @@ footer #products h4, #explore h4, #touch h4{
 }
 
 
-footer nav ul li{
+footer ul{
   list-style-type: none;
-  padding: 0
+  padding-left: 0;
   
 }
 
