@@ -1,4 +1,9 @@
 function toggleMobileMenu() {
   console.log('toggleMobileMenu');
-  document.getElementById('mobile-menu').className = 'opened';
+  let mobileMenuClass = document.getElementById('mobile-menu').className;
+  if (mobileMenuClass == 'opened') {
+    document.getElementById('mobile-menu').className = 'closed';
+  } else {
+    document.getElementById('mobile-menu').className = 'opened';
+  }
 }
